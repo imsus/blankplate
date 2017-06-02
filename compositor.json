@@ -1,0 +1,87 @@
+{
+  "name": "imsus/blankplate",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Blankplate",
+  "branch": "master",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://imsus.github.io/blankplate/",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/imsus/blankplate",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "blankplate",
+      "subhead": "An HTML 5 Boilerplate designed for Web Performance.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "blankplate: An HTML 5 Boilerplate designed for Web Performance.",
+          "url": "https://imsus.github.io/blankplate/"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "imsus",
+          "repo": "blankplate"
+        }
+      ]
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/imsus/blankplate",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/imsus",
+          "text": "imsus"
+        }
+      ]
+    }
+  ]
+}
